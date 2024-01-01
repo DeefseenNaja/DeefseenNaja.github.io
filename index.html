@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img 
+        src="images/logo.png" 
+        alt=""
+        class="logo"
+        >
+<ul>
+    <li>Home</li>
+    <li>Services</li>
+    <li>Project</li>
+    <li>About us</li>
+    <button class="nav-button">Get start <img src="images/arrow-white.png" alt=""></button>
+</ul>
+</nav>
+<div class="header">
+    <h1>Piyanat<br>Traiphisut</h1>
+        <div class="btn">
+        <button class="contract">contract <img src="images/phone.png" alt=""></button>
+        <div class="user-img">
+            <img src="images/user.png" alt="">
+           </div>
+    </div>
+</div>
+
+<script>
+    let navbar = document.querySelector("nav")
+
+    window.onscroll = function(){
+    if(window.scrollY > 0){
+        navbar.style.background = "#eefff9";
+    }
+    else{
+        navbar.style.background = "transprent";
+    }
+    }
+</script>
+</body>
+</html>
